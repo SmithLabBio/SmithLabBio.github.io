@@ -3,7 +3,7 @@
     "year": 2023,
     "title": "reconcILS: A gene tree–species tree reconciliation algorithm that allows for incomplete lineage sorting",
     "meta": "Mishra, Sarthak, <strong>Megan L. Smith</strong>, &amp; Matthew W. Hahn",
-    "type": "in-review",
+    "type": "preprint",
     "status": "In review",
     "doi": "https://doi.org/10.1101/2023.11.03.565544"
   },
@@ -11,14 +11,14 @@
     "year": 2025,
     "title": "The reasonable effectiveness of domain adaptation for inference of introgression",
     "meta": "Cobb, Kerry, &amp; <strong>Megan L. Smith</strong>",
-    "type": "in-review",
+    "type": "preprint",
     "status": "In revision",
     "doi": "https://doi.org/10.1101/2025.01.17.633659"
   },
   {
     "year": 2026,
     "title": "Transcriptomes resolve phylogenetic relationships and reveal undescribed diversity in taildropper slugs (genus <i>Prophysaon</i>)",
-    "meta": "<strong>Smith, Megan L.</strong>, Shelby Moshier, &amp; Nathaniel Shoobs – bioRxiv",
+    "meta": "<strong>Smith, Megan L.</strong>, Shelby Moshier, &amp; Nathaniel Shoobs – accepted in Zoologial Journal of the Linnean Society",
     "type": "preprint",
     "doi": "https://doi.org/10.64898/2026.03.25.713997"
   },
