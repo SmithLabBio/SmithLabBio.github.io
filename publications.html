@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Publications — The Smith Lab</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="layout">
+  <div class="sidebar">
+    <div class="sidebar-top">
+      <a class="brand" href="index.html">The <span>Smith Lab</span><br>Mississippi State</a>
+      <button class="sidebar-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+    <div class="sidebar-collapsible">
+      <ul>
+        <li><a href="index.html" class="navlink">Home</a></li>
+        <li><a href="research.html" class="navlink">Research</a></li>
+        <li><a href="people.html" class="navlink">People</a></li>
+        <li><a href="publications.html" class="navlink active">Publications</a></li>
+        <li><a href="software.html" class="navlink">Software</a></li>
+        <li><a href="news.html" class="navlink">News</a></li>
+        <li><a href="contact.html" class="navlink">Contact</a></li>
+      </ul>
+      <div class="foot-mini">
+        Dept. of Biological Sciences<br>
+        Mississippi State University<br>
+        295 E. Lee Blvd, 219 Harned Hall<br>
+        Mississippi State, MS 39762
+        <div class="foot-links">
+          <a href="mailto:ms4438@msstate.edu">Email</a>
+          <a href="https://scholar.google.com/citations?hl=en&user=STDh3vkAAAAJ">Google Scholar</a>
+          <a href="https://github.com/meganlsmith">GitHub</a>
+          <a href="https://twitter.com/snaild_it">Twitter / X</a>
+        </div>
+        <div class="copyright">© 2026 The Smith Lab</div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <header class="page-hero">
+      <div class="wrap">
+        <span class="eyebrow mono">Published work</span>
+        <h1>Publications</h1>
+        <p class="lede">Peer-reviewed papers, preprints, and work in progress from the lab.</p>
+      </div>
+    </header>
+
+    <section>
+      <div class="wrap">
+
+        <div class="pub-filter">
+          <button class="active" data-filter="all">All</button>
+          <button data-filter="peer-reviewed">Peer-reviewed</button>
+          <button data-filter="preprint">Preprints</button>
+          <button data-filter="in-review">In review</button>
+        </div>
+
+        <ul class="pub-list" id="pub-list">
+          <li><p class="mono" style="opacity:0.5;">Loading publications…</p></li>
+        </ul>
+
+<!-- Notes on how to add new publications:
+        <p style="margin-top:40px; font-size:14px; color:rgba(29,33,28,0.6);">
+          To add a new publication: open <code>pubs.json</code> and add a new entry following the same
+          pattern — <code>year</code>, <code>title</code>, <code>meta</code> (authors/journal — wrap your
+          own name in <code>&lt;strong&gt;</code> to bold it), <code>type</code> (<code>"peer-reviewed"</code>,
+          <code>"preprint"</code>, or <code>"in-review"</code>, for the filter buttons), and optional
+          <code>doi</code> / <code>pdf</code> URLs. No HTML editing needed for new papers — just the data file.
+        </p>
+-->
+
+      </div>
+    </section>
+  </main>
+</div>
+
+<script>
+  const pubList = document.getElementById('pub-list');
+
+  fetch('pubs.json')
+    .then(res => res.json())
+    .then(pubs => {
+      pubs.sort((a, b) => b.year - a.year);
+
+      pubList.innerHTML = pubs.map(pub => {
+        const links = [
+          pub.doi ? `<a href="${pub.doi}">DOI</a>` : '',
+          pub.pdf ? `<a href="${pub.pdf}">PDF</a>` : ''
+        ].filter(Boolean).join('');
+
+        const badge = pub.type === 'in-review' ? `<span class="pub-badge">${pub.status || 'In review'}</span>` : '';
+
+        return `
+          <li data-type="${pub.type}">
+            <span class="pub-year mono">${pub.year}</span>
+            <div>
+              <div class="pub-title">${pub.title}${badge}</div>
+              <div class="pub-meta">${pub.meta}</div>
+              ${links ? `<div class="pub-links">${links}</div>` : ''}
+            </div>
+          </li>`;
+      }).join('');
+
+      wireFilters();
+    })
+    .catch(err => {
+      pubList.innerHTML = '<li><p class="mono" style="opacity:0.5;">Could not load pubs.json — check the file exists and this page is being served over http(s), not opened directly as a file.</p></li>';
+      console.error(err);
+    });
+
+  function wireFilters() {
+    const buttons = document.querySelectorAll('.pub-filter button');
+    const items = document.querySelectorAll('#pub-list li');
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        buttons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.dataset.filter;
+        items.forEach(li => {
+          li.style.display = (filter === 'all' || li.dataset.type === filter) ? '' : 'none';
+        });
+      });
+    });
+  }
+</script>
+<script src="nav.js"></script>
+
+</body>
+</html>

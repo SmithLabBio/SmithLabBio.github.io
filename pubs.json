@@ -1,0 +1,237 @@
+[
+  {
+    "year": 2023,
+    "title": "reconcILS: A gene tree–species tree reconciliation algorithm that allows for incomplete lineage sorting",
+    "meta": "Mishra, Sarthak, <strong>Megan L. Smith</strong>, &amp; Matthew W. Hahn",
+    "type": "in-review",
+    "status": "In review",
+    "doi": "https://doi.org/10.1101/2023.11.03.565544"
+  },
+  {
+    "year": 2025,
+    "title": "The reasonable effectiveness of domain adaptation for inference of introgression",
+    "meta": "Cobb, Kerry, &amp; <strong>Megan L. Smith</strong>",
+    "type": "in-review",
+    "status": "In revision",
+    "doi": "https://doi.org/10.1101/2025.01.17.633659"
+  },
+  {
+    "year": 2026,
+    "title": "Transcriptomes resolve phylogenetic relationships and reveal undescribed diversity in taildropper slugs (genus <i>Prophysaon</i>)",
+    "meta": "<strong>Smith, Megan L.</strong>, Shelby Moshier, &amp; Nathaniel Shoobs – bioRxiv",
+    "type": "preprint",
+    "doi": "https://doi.org/10.64898/2026.03.25.713997"
+  },
+  {
+    "year": 2026,
+    "title": "Using gene trees with lineage-specific duplicates for phylogenetic inference mitigates the effects of long-branch attraction",
+    "meta": "<strong>Smith, Megan L.</strong>, &amp; Matthew W. Hahn – Systematic Biology, syaf089",
+    "type": "peer-reviewed",
+    "doi": "https://doi.org/10.1093/sysbio/syaf089"
+  },
+  {
+    "year": 2024,
+    "title": "Selection leads to false inferences of introgression using popular methods",
+    "meta": "<strong>Smith, Megan L.</strong>, &amp; Matthew W. Hahn – Genetics, 227, iyae089",
+    "type": "peer-reviewed",
+    "doi": "https://doi.org/10.1093/genetics/iyae089"
+  },
+  {
+    "year": 2024,
+    "title": "Application of machine learning in phylogenetics",
+    "meta": "Mu, Yu K., Matthew W. Hahn, &amp; <strong>Megan L. Smith</strong> – Molecular Phylogenetics and Evolution, 196, 108066",
+    "type": "peer-reviewed",
+    "doi": "https://doi.org/10.1016/j.ympev.2024.108066"
+  },
+  {
+    "year": 2023,
+    "title": "Phylogenetic inference using Generative Adversarial Networks",
+    "meta": "<strong>Smith, Megan L.</strong>, &amp; Matthew W. Hahn – Bioinformatics, 39(9), btad543",
+    "type": "peer-reviewed",
+    "doi": "https://doi.org/10.1093/bioinformatics/btad543"
+  },
+  {
+    "year": 2023,
+    "title": "Comparative phylogeography of microsnails from the Pacific Northwest",
+    "meta": "<strong>Smith, Megan L.</strong>, Connor Lang, David Sneddon, Jessica Wallace, Anahí Espíndola, Jack Sullivan, &amp; Bryan C. Carstens – Northwest Science, 96(1–2), 117–132",
+    "type": "peer-reviewed"
+  },
+  {
+    "year": 2023,
+    "title": "Species limits and diversification of the <i>Dendropsophus rubicundulus</i> subgroup (Anura, Hylidae) in Neotropical savannas",
+    "meta": "Arantes, Ísis C., Mariana M. Vasoncellos, <strong>Megan L. Smith</strong>, Ryan C. Garrick, Guarino R. Colli, &amp; Brice P. Noonan – Molecular Phylogenetics and Evolution, 186, 107843",
+    "type": "peer-reviewed"
+  },
+  {
+    "year": 2023,
+    "title": "There and back again: The unexpected journeys of <i>Metridium</i> de Blainville, 1824 between the Old Oceans and throughout the Modern World",
+    "meta": "Glon, Heather, Vreni Häussermann, Paul E. Brewin, Paul Brickle, Sungsik Kong, <strong>Megan L. Smith</strong>, &amp; Marymegan Daly – The Biological Bulletin, 244(1), 9–24",
+    "type": "peer-reviewed"
+  },
+  {
+    "year": 2022,
+    "title": "The role of multiple Pleistocene refugia in promoting diversification in the Pacific Northwest",
+    "meta": "<strong>Smith, Megan L.</strong>, Jessica Wallace, David C. Tank, Jack Sullivan, &amp; Bryan C. Carstens – Molecular Ecology, 31(16), 4402–4416",
+    "type": "peer-reviewed",
+    "doi": "https://doi.org/10.1111/mec.16595"
+  },
+  {
+    "year": 2022,
+    "title": "Assessing model adequacy for Bayesian Skyline Plots using posterior predictive simulations",
+    "meta": "Fonseca, Emanuel M., Drew J. Duckett, Filipe G. Almeida, <strong>Megan L. Smith</strong>, Maria Tereza C. Thomé, &amp; Bryan C. Carstens – PLoS ONE, 17(7), e0269438",
+    "type": "peer-reviewed",
+    "doi": "https://doi.org/10.1371/journal.pone.0269438"
+  },
+  {
+    "year": 2022,
+    "title": "Using all gene families vastly expands data available for phylogenomic inference",
+    "meta": "<strong>Smith, Megan L.</strong>, Dan Vanderpool, &amp; Matthew W. Hahn – Molecular Biology and Evolution, 39(6), msac112",
+    "type": "peer-reviewed",
+    "doi": "https://doi.org/10.1093/molbev/msac112"
+  },
+  {
+    "year": 2022,
+    "title": "Genomic evidence of an ancient inland temperate rainforest",
+    "meta": "Ruffley, Megan, <strong>Megan L. Smith</strong>, Anahí Espíndola, Daniel Turck, Niels Mitchell, Bryan Carstens, Jack Sullivan, &amp; David C. Tank – Molecular Ecology, 31(10), 2985–3001",
+    "type": "peer-reviewed",
+    "doi": "https://doi.org/10.1111/mec.16431"
+  },
+  {
+    "year": 2022,
+    "title": "The frequency and topology of pseudoorthologs",
+    "meta": "<strong>Smith, Megan L.</strong>, &amp; Matthew W. Hahn – Systematic Biology, 71(3), 649–659",
+    "type": "peer-reviewed",
+    "doi": "https://doi.org/10.1093/sysbio/syab097"
+  },
+  {
+    "year": 2022,
+    "title": "Assessing model adequacy leads to more robust phylogeographic inference",
+    "meta": "Carstens, Bryan C., <strong>Megan L. Smith</strong>, Emanuel M. Fonseca, &amp; Maria Tereza C. Thomé – Trends in Ecology and Evolution, 37(5), 402–410",
+    "type": "peer-reviewed",
+    "doi": "https://doi.org/10.1016/j.tree.2021.12.007"
+  },
+  {
+    "year": 2022,
+    "title": "Species tree inference on data with paralogs is accurate using methods intended to deal with incomplete lineage sorting",
+    "meta": "Yan, Zhi*, <strong>Megan L. Smith*</strong>, Peng Du, Matthew W. Hahn, &amp; Luay Nakhleh – Systematic Biology, 71(2), 367–381",
+    "type": "peer-reviewed",
+    "doi": "https://doi.org/10.1093/sysbio/syab056"
+  },
+  {
+    "year": 2021,
+    "title": "Machine learning in molecular ecology",
+    "meta": "Fountain-Jones, Nicholas M., <strong>Megan L. Smith</strong>, &amp; Frédéric Austerlitz – Molecular Ecology Resources, 21(8), 2589–2597",
+    "type": "peer-reviewed",
+    "doi": "https://doi.org/10.1111/1755-0998.13532"
+  },
+  {
+    "year": 2021,
+    "title": "Species delimitation using molecular data",
+    "meta": "<strong>Smith, Megan L.</strong>, &amp; Bryan C. Carstens – in <i>Species and Beyond</i>, Taylor &amp; Francis Group",
+    "type": "peer-reviewed"
+  },
+  {
+    "year": 2021,
+    "title": "Signatures of north-eastern expansion and multiple refugia: genomic phylogeography of the Pine Barrens tree frog, <i>Hyla andersonii</i> (Anura: Hylidae)",
+    "meta": "Warwick, Alexa R., Lisa N. Barrow, <strong>Megan L. Smith</strong>, D. Bruce Means, Alan R. Lemmon, &amp; Emily Moriarty Lemmon – Biological Journal of the Linnean Society, 133(1), 120–134",
+    "type": "peer-reviewed",
+    "doi": "https://doi.org/10.1093/biolinnean/blab023"
+  },
+  {
+    "year": 2021,
+    "title": "New approaches for inferring phylogenies in the presence of paralogs",
+    "meta": "<strong>Smith, Megan L.</strong>, &amp; Matthew W. Hahn – Trends in Genetics, 37(2), 174–187",
+    "type": "peer-reviewed",
+    "doi": "https://doi.org/10.1016/j.tig.2020.08.012"
+  },
+  {
+    "year": 2021,
+    "title": "Sharing and reporting benefits from biodiversity research",
+    "meta": "Marden, Emily, et al. – Molecular Ecology, 30(5), 1103–1107",
+    "type": "peer-reviewed",
+    "doi": "https://doi.org/10.1111/mec.15702"
+  },
+  {
+    "year": 2020,
+    "title": "Population genetic structure and demographic history of the lone star tick",
+    "meta": "Lado, Paula, <strong>Megan L. Smith</strong>, Bryan Carstens, &amp; Hans Klompen – Molecular Ecology, 29(15), 2810–2823",
+    "type": "peer-reviewed",
+    "doi": "https://doi.org/10.1111/mec.15524"
+  },
+  {
+    "year": 2020,
+    "title": "On the availability of recently described <i>Ptychadena</i> (Anura: Ptychadenidae) nomina from Ethiopia",
+    "meta": "Colston, Timothy J., Brice P. Noonan, <strong>Megan L. Smith</strong>, &amp; R. Alexander Pyron – Zootaxa, 4786(2), 289–294",
+    "type": "peer-reviewed",
+    "doi": "https://doi.org/10.11646/zootaxa.4786.2.11"
+  },
+  {
+    "year": 2020,
+    "title": "The subfamily Abbottellinae (Annulariidae): origins, associations, and a review of the Hispaniolan taxa",
+    "meta": "Watters, George T., <strong>Megan L. Smith</strong>, &amp; D.J. Sneddon – The Nautilus, 134(1), 1–34",
+    "type": "peer-reviewed"
+  },
+  {
+    "year": 2020,
+    "title": "Does habitat stability structure intraspecific genetic diversity? It's complicated",
+    "meta": "Wieringa, Jamin G., Matthew R. Boot, Marcos V. Dantas-Queiroz, Drew Duckett, Emanuel M. Fonseca, Heather Glon, Natalie Hamilton, Sungsik Kong, Flavia M. Lanna, Kali Z. Mattingly, Danielle J. Parsons, <strong>Megan L. Smith</strong>, Benjamin W. Stone, Coleen Thompson, Lei Zuo, &amp; Bryan C. Carstens – Frontiers of Biogeography, 12(2), e45377",
+    "type": "peer-reviewed",
+    "doi": "https://doi.org/10.21425/F5FBG45377"
+  },
+  {
+    "year": 2020,
+    "title": "Process-based species delimitation leads to identification of more biologically relevant species",
+    "meta": "<strong>Smith, Megan L.</strong>, &amp; Bryan C. Carstens – Evolution, 74(2), 216–229",
+    "type": "peer-reviewed",
+    "doi": "https://doi.org/10.1111/evo.13878"
+  },
+  {
+    "year": 2019,
+    "title": "Complex interplay of ancient vicariance and recent secondary contact in northwestern North American temperate rainforests",
+    "meta": "Rankin, Andrew M., Thomas Wilke, Michael Lucid, William Leonard, Anahí Espíndola, <strong>Megan L. Smith</strong>, Megan Ruffley, Dave Tank, Bryan C. Carstens, &amp; Jack Sullivan – Biological Journal of the Linnean Society, 127(4), 876–889",
+    "type": "peer-reviewed",
+    "doi": "https://doi.org/10.1093/biolinnean/blz040"
+  },
+  {
+    "year": 2019,
+    "title": "Integrating life history traits into predictive phylogeography",
+    "meta": "Sullivan, J.*, <strong>Megan L. Smith*</strong>, Anahí Espíndola, Megan Ruffley, Andrew Rankin, David C. Tank, &amp; Bryan C. Carstens – Molecular Ecology, 28(8), 2062–2073",
+    "type": "peer-reviewed",
+    "doi": "https://doi.org/10.1111/mec.15029"
+  },
+  {
+    "year": 2018,
+    "title": "Testing for the presence of cryptic diversity in tail-dropper slugs (<i>Prophysaon</i>) using molecular data",
+    "meta": "<strong>Smith, Megan L.</strong>, Megan Ruffley, Andrew M. Rankin, Anahí Espíndola, David C. Tank, Jack Sullivan, &amp; Bryan C. Carstens – Biological Journal of the Linnean Society, 124(3), 518–532",
+    "type": "peer-reviewed",
+    "doi": "https://doi.org/10.1093/biolinnean/bly067"
+  },
+  {
+    "year": 2018,
+    "title": "Combining allele frequency and tree-based approaches improves phylogeographic inference from natural history collections",
+    "meta": "Ruffley, Megan R., <strong>Megan L. Smith</strong>, Anahí Espíndola, Bryan C. Carstens, David C. Tank, &amp; Jack Sullivan – Molecular Ecology, 27(4), 1012–1024",
+    "type": "peer-reviewed",
+    "doi": "https://doi.org/10.1111/mec.14491"
+  },
+  {
+    "year": 2017,
+    "title": "Demographic model selection using Random Forests and the Site Frequency Spectrum",
+    "meta": "<strong>Smith, Megan L.</strong>, Megan Ruffley, Anahí Espíndola, David C. Tank, Jack Sullivan, &amp; Bryan C. Carstens – Molecular Ecology, 26(17), 4562–4573",
+    "type": "peer-reviewed",
+    "doi": "https://doi.org/10.1111/mec.14223"
+  },
+  {
+    "year": 2017,
+    "title": "The role of climatic and geological events in generating diversity in Ethiopian grass frogs (genus <i>Ptychadena</i>)",
+    "meta": "<strong>Smith, Megan L.</strong>, Brice P. Noonan, &amp; Timothy J. Colston – Royal Society Open Science, 4(8), 170021",
+    "type": "peer-reviewed",
+    "doi": "https://doi.org/10.1098/rsos.170021"
+  },
+  {
+    "year": 2016,
+    "title": "Identifying cryptic diversity with predictive phylogeography",
+    "meta": "Espíndola, Anahí, Megan Ruffley, <strong>Megan L. Smith</strong>, Bryan C. Carstens, David C. Tank, &amp; Jack Sullivan – Proceedings of the Royal Society B, 283(1841), 20161529",
+    "type": "peer-reviewed",
+    "doi": "https://doi.org/10.1098/rspb.2016.1529"
+  }
+]

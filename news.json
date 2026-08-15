@@ -1,0 +1,28 @@
+[
+  {
+    "date": "2026-08-10",
+    "display_date": "AUG 2026",
+    "title": "Ash wins competitive Mississippi Space Grant Fellowship.",
+    "body": "Ash travelled to Oxford, MS to attend orientation for the prestigious Mississippi Space Grant Fellowship! Congrats Ash!"
+  },
+  {
+    "date": "2026-07-24",
+    "display_date": "JULY 2026",
+    "title": "Lab receives an NSF career award to study invasive slugs.",
+    "body": "Megan was awarded an NSF CAREER award for $779,889 for a project focusing on two genera of invasive slugs. The project also included outreach to local gardenders and the development of a new course on invasive species at MSU.",
+    "link": "https://www.msstate.edu/newsroom/article/2026/07/msu-biologists-win-prestigious-nsf-career-awards-explore-genetic-errors"
+  },
+  {
+    "date": "2026-07-21",
+    "display_date": "JULY 2026",
+    "title": "Lab travels to the Evolution conference.",
+    "body": "The lab traveled to Cleveland, OH to the Evolution conference. Ash, Audrey, and Caden all won competitive travel awards to support their trip, and everyone gave talks on their research. Honorary lab members Isaac and Elliott tagged along for their first trip.",
+  	"image": "photos/news/evolution.jpeg"
+  },
+  {
+    "date": "2026-06-01",
+    "display_date": "JUNE 2026",
+    "title": "Lab receives NSF STAR grant.",
+    "body": "The lab received an NSF STAR grant to develop machine learning methods for population genetics."
+  }
+]

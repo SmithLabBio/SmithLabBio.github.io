@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Software — The Smith Lab</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="layout">
+  <div class="sidebar">
+    <div class="sidebar-top">
+      <a class="brand" href="index.html">The <span>Smith Lab</span><br>Mississippi State</a>
+      <button class="sidebar-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+    <div class="sidebar-collapsible">
+      <ul>
+        <li><a href="index.html" class="navlink">Home</a></li>
+        <li><a href="research.html" class="navlink">Research</a></li>
+        <li><a href="people.html" class="navlink">People</a></li>
+        <li><a href="publications.html" class="navlink">Publications</a></li>
+        <li><a href="software.html" class="navlink active">Software</a></li>
+        <li><a href="news.html" class="navlink">News</a></li>
+        <li><a href="contact.html" class="navlink">Contact</a></li>
+      </ul>
+      <div class="foot-mini">
+        Dept. of Biological Sciences<br>
+        Mississippi State University<br>
+        295 E. Lee Blvd, 219 Harned Hall<br>
+        Mississippi State, MS 39762
+        <div class="foot-links">
+          <a href="mailto:ms4438@msstate.edu">Email</a>
+          <a href="https://scholar.google.com/citations?hl=en&user=STDh3vkAAAAJ">Google Scholar</a>
+          <a href="https://github.com/meganlsmith">GitHub</a>
+          <a href="https://twitter.com/snaild_it">Twitter / X</a>
+        </div>
+        <div class="copyright">© 2026 The Smith Lab</div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <header class="page-hero">
+      <div class="wrap">
+        <span class="eyebrow mono">Open-source tools</span>
+        <h1>Software</h1>
+        <p class="lede">Tools we build and maintain for phylogenetic and population-genomic inference. All are open source on GitHub.</p>
+      </div>
+    </header>
+
+    <section>
+      <div class="wrap">
+        <div class="software-grid">
+
+          <div class="software-card">
+            <span class="mono" style="font-size:11px; color:var(--rust); text-transform:uppercase; letter-spacing:0.06em; display:block; margin-bottom:10px;">In development</span>
+            <h3>popai</h3>
+			<p>A python package for demographic model selection. This is currently in development. Check it out, and let us know what you think!</p>
+            <div class="links"><a href="https://github.com/SmithLabBio/popai">GitHub →</a></div>
+          </div>
+
+          <div class="software-card">
+            <h3>phyloGAN</h3>
+			<p>phyloGAN is a Generative Adversarial Network (GAN) that infers phylognetic relationships. phyloGAN takes as input a concatenated alignments, or a set of gene alignments, and then infers a phylogenetic tree either considering or ignoring gene tree heterogeneity.</p>
+            <div class="links"><a href="https://github.com/meganlsmith/phyloGAN">GitHub →</a></div>
+            <p class="ref">Smith &amp; Hahn, 2023 — Bioinformatics</p>
+          </div>
+
+          <div class="software-card">
+            <h3>delimitR</h3>
+			<p>delimitR delimits species while considering population-level processes like gene flow, and can also be used to compare demographic models using Random Forests and the Site Frequency Spectrum.</p>
+            <div class="links"><a href="https://github.com/meganlsmith/delimitR">GitHub →</a></div>
+            <p class="ref">Smith &amp; Carstens, 2020 — Evolution</p>
+          </div>
+
+          <div class="software-card">
+            <h3>Ortholog Extraction</h3>
+			<p>A series of scripts to extract orthologs from larger gene family trees, including a novel branch-cutting method.</p>
+            <div class="links"><a href="https://github.com/meganlsmith/Primate_Paralogs">GitHub →</a></div>
+            <p class="ref">Smith et al., 2022 — Molecular Biology and Evolution</p>
+          </div>
+
+          <div class="software-card">
+            <h3>dupcoal</h3>
+			<p>dupcoal is a simulator that simulates gene trees under duplication, loss, and coalescence. dupcoal allows for copy-number hemiplasy, unlike many other such simulators.</p>
+            <div class="links"><a href="https://github.com/meganlsmith/dupcoal">GitHub →</a></div>
+            <p class="ref">Mishra et al. — bioRxiv</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+
+<script src="nav.js"></script>
+
+</body>
+</html>

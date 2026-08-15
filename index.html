@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="The Smith Lab at Mississippi State University studies diversification using genomic data, with a focus on terrestrial snails and slugs.">
+<title>The Smith Lab — Mississippi State University</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="layout">
+  <div class="sidebar">
+    <div class="sidebar-top">
+      <a class="brand" href="index.html">The <span>Smith Lab</span><br>Mississippi State</a>
+      <button class="sidebar-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+    <div class="sidebar-collapsible">
+      <ul>
+        <li><a href="index.html" class="navlink active">Home</a></li>
+        <li><a href="research.html" class="navlink">Research</a></li>
+        <li><a href="people.html" class="navlink">People</a></li>
+        <li><a href="publications.html" class="navlink">Publications</a></li>
+        <li><a href="software.html" class="navlink">Software</a></li>
+        <li><a href="news.html" class="navlink">News</a></li>
+        <li><a href="contact.html" class="navlink">Contact</a></li>
+      </ul>
+      <div class="foot-mini">
+        Dept. of Biological Sciences<br>
+        Mississippi State University<br>
+        295 E. Lee Blvd, 219 Harned Hall<br>
+        Mississippi State, MS 39762
+        <div class="foot-links">
+          <a href="mailto:ms4438@msstate.edu">Email</a>
+          <a href="https://scholar.google.com/citations?hl=en&user=STDh3vkAAAAJ">Google Scholar</a>
+          <a href="https://github.com/meganlsmith">GitHub</a>
+        </div>
+        <div class="copyright">© 2026 The Smith Lab</div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <header class="hero">
+      <div class="wrap">
+        <div>
+          <span class="eyebrow mono">Mississippi State University · Biological Sciences</span>
+          <h1>Studying <em>diversification</em> using genomic data.</h1>
+          <p class="lede">
+				Our research focuses on developing methods for analyzing genomic data in an evolutionary context, and applies these methods to the study of terrestrial mollusks.
+				We evaluate existing methods and develop novel methods (including machine learning methods) for analyzing genomic data to answer questions about species diversification.
+				We combine field, lab, and computational work to study diversification in terrestrial snails and slugs.           
+		  </p>
+          <div class="hero-ctas">
+            <a class="btn btn-solid" href="research.html">Learn more about research</a>
+            <a class="btn btn-outline" href="people.html">Join the lab</a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <!-- PLACEHOLDER: swap for a headshot or field photo, saved to photos/header/ -->
+			<div class="photo-circle"><img src="photos/header/vanattae.webp" alt="Close-up of a cute snail"></div>
+
+        </div>
+      </div>
+    </header>
+
+    <!-- News teaser section -->
+    <section id="news-teaser">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <span class="tag">01 — News from the lab</span>
+            <h2>News</h2>
+          </div>
+          <a href="news.html" class="more-link">See all updates →</a>
+        </div>
+        <ul class="news-list" id="news-list-home">
+          <li><p class="mono" style="opacity:0.5;">Loading news…</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="research">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <span class="tag">02 — The science</span>
+            <h2>Research</h2>
+          </div>
+          <a href="research.html" class="more-link">Full research page →</a>
+        </div>
+        <div class="research-grid">
+          <div class="research-card">
+            <div class="num">I</div>
+            <h3>Invasive Terrestrial Gastropods</h3>
+            <p>We combine genetic, phenotypic, and ecological data to investigate the invasive histories and the factors promoting invasiveness in terrestrial snails and slugs.</p>
+          </div>
+          <div class="research-card">
+            <div class="num">II</div>
+            <h3>Machine Learning in Population Genetics</h3>
+            <p>We develop and test machine-learning approaches — including domain adaptation — for inferring evolutionary histories from genomic data.</p>
+          </div>
+          <div class="research-card">
+            <div class="num">III</div>
+            <h3>Gene Duplication</h3>
+            <p>We use gene duplicates to improve phylogenetic inference and develop methods for investigating the evolutionary dynamics, causes, and consequences of gene duplication and loss.</p>
+          </div>
+          <div class="research-card">
+            <div class="num">IV</div>
+            <h3>Speciation in Native Slugs</h3>
+            <p>We study species limits and speciation in native terrestrial gastropods from North America.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery section -->
+    <section style="padding-top:0;">
+      <div class="wrap">
+        <!--
+          PLACEHOLDER: fieldwork / specimen / lab photos.
+          Drop images into photos/gallery/ and replace each .gallery-item's
+          contents with an <img src="photos/gallery/your-photo.jpg" alt="..."> tag.
+        -->
+		<div class="gallery" id="gallery">
+          <div class="gallery-item"><span class="mono">Loading…</span></div>
+        </div>
+    
+      </div>
+    </section>
+
+    <!-- People teaser section -->
+    <section id="people-teaser">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <span class="tag">03 — The humans</span>
+            <h2>People</h2>
+          </div>
+          <a href="people.html" class="more-link">Meet everyone →</a>
+        </div>
+        <div class="people-strip">
+          <a class="person-card-link" href="people.html#megan-smith">
+            <div class="person-card">
+			<div class="person-photo"><img src="photos/people/megan.webp" alt="Megan L. Smith"></div>              <h4>Megan L. Smith</h4>
+              <div class="role">Principal Investigator</div>
+            </div>
+          </a>
+          <a class="person-card-link" href="people.html#ashlyn-silliman">
+            <div class="person-card">
+			<div class="person-photo"><img src="photos/people/ash.webp" alt="Ash Silliman"></div>              <h4>Megan L. Smith</h4>
+              <h4>Ashlyn Silliman</h4>
+              <div class="role">Ph.D. Student</div>
+            </div>
+          </a>
+          <a class="person-card-link" href="people.html#audrey-bales">
+            <div class="person-card">
+			<div class="person-photo"><img src="photos/people/audrey.webp" alt="Audrey Bales"></div>              <h4>Megan L. Smith</h4>
+              <h4>Audrey Bales</h4>
+              <div class="role">Master's Student</div>
+            </div>
+          </a>
+          <a class="person-card-link" href="people.html#caden-noonan">
+            <div class="person-card">
+			<div class="person-photo"><img src="photos/people/caden.webp" alt="Caden Noonan"></div>              <h4>Megan L. Smith</h4>
+              <h4>Caden Noonan</h4>
+              <div class="role">Ph.D. Student</div>
+            </div>
+          </a>
+        </div>
+        <div class="recruiting">
+          <strong>We are hiring a postdoc and recruiting Ph.D. students and undergraduates.</strong> Interested in genomics, computational evolutionary biology, or malacology? <a href="contact.html" style="color:var(--teal); text-decoration:underline;">Get in touch</a>.
+        </div>
+      </div>
+    </section>
+
+    <!-- Software teaser section -->
+    <section id="software-teaser">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <span class="tag">04 — Open-source tools</span>
+            <h2>Software</h2>
+          </div>
+          <a href="software.html" class="more-link">See all software →</a>
+        </div>
+        <div class="software-strip">
+          <div class="software-card-mini">
+            <span class="mono">In development</span>
+            <h4>popai</h4>
+            <p>A Python package for demographic model selection using machine learning.</p>
+          </div>
+          <div class="software-card-mini">
+            <span class="mono">GAN-based inference</span>
+            <h4>phyloGAN</h4>
+            <p>Infers phylogenetic relationships using a Generative Adversarial Network.</p>
+          </div>
+          <div class="software-card-mini">
+            <span class="mono">Simulation</span>
+            <h4>dupcoal</h4>
+            <p>Simulates gene trees under duplication, loss, and coalescence, including copy-number hemiplasy.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+</div>
+
+<!-- Gallery autoscroll -->
+<!-- Gallery: build tiles from gallery.json, then enable auto-scroll on hover -->
+<script>
+  const gallery = document.getElementById('gallery');
+
+  fetch('gallery.json')
+    .then(res => res.json())
+    .then(items => {
+      if (!items.length) {
+        gallery.innerHTML = '<div class="gallery-item"><span class="mono">Photos coming soon</span></div>';
+        return;
+      }
+
+      gallery.innerHTML = items.map(item =>
+        `<div class="gallery-item"><img src="photos/gallery/${item.file}" alt="${item.alt || ''}"></div>`
+      ).join('');
+
+      const originalItems = Array.from(gallery.children);
+      originalItems.forEach(item => {
+        const clone = item.cloneNode(true);
+        clone.setAttribute('aria-hidden', 'true');
+        gallery.appendChild(clone);
+      });
+      const loopPoint = gallery.scrollWidth / 2;
+
+      let scrollTimer = null;
+      gallery.addEventListener('mouseenter', () => {
+        gallery.classList.add('auto-scrolling');
+        scrollTimer = setInterval(() => {
+          gallery.scrollLeft += 2;
+          if (gallery.scrollLeft >= loopPoint) gallery.scrollLeft -= loopPoint;
+        }, 20);
+      });
+      gallery.addEventListener('mouseleave', () => {
+        clearInterval(scrollTimer);
+        gallery.classList.remove('auto-scrolling');
+      });
+    })
+    .catch(() => {
+      gallery.innerHTML = '<div class="gallery-item"><span class="mono">Could not load gallery.json</span></div>';
+    });
+</script>
+<!-- News teaser (first 3 items from news.json) -->
+<script>
+  fetch('news.json')
+    .then(res => res.json())
+    .then(items => {
+      items.sort((a, b) => new Date(b.date) - new Date(a.date));
+      const list = document.getElementById('news-list-home');
+      list.innerHTML = items.slice(0, 3).map(n => {
+        const thumb = n.image ? `<img class="news-thumb" src="${n.image}" alt="">` : '';
+        const link = n.link ? `<a class="news-link mono" href="${n.link}" target="_blank" rel="noopener">Read the story →</a>` : '';
+        return `
+          <li>
+            <span class="news-date mono">${n.display_date}</span>
+            <div class="news-text">
+              ${thumb}
+              <div class="news-text-body">
+                <strong>${n.title}</strong>
+                <p>${n.body}</p>
+                ${link}
+              </div>
+            </div>
+          </li>`;
+      }).join('');
+    })
+    .catch(() => {
+      document.getElementById('news-list-home').innerHTML = '<li><p class="mono" style="opacity:0.5;">Could not load news.json.</p></li>';
+    });
+</script>
+<script src="nav.js"></script>
+
+</body>
+</html>

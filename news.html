@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>News — The Smith Lab</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="layout">
+  <div class="sidebar">
+    <div class="sidebar-top">
+      <a class="brand" href="index.html">The <span>Smith Lab</span><br>Mississippi State</a>
+      <button class="sidebar-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+    <div class="sidebar-collapsible">
+      <ul>
+        <li><a href="index.html" class="navlink">Home</a></li>
+        <li><a href="research.html" class="navlink">Research</a></li>
+        <li><a href="people.html" class="navlink">People</a></li>
+        <li><a href="publications.html" class="navlink">Publications</a></li>
+        <li><a href="software.html" class="navlink">Software</a></li>
+        <li><a href="news.html" class="navlink active">News</a></li>
+        <li><a href="contact.html" class="navlink">Contact</a></li>
+      </ul>
+      <div class="foot-mini">
+        Dept. of Biological Sciences<br>
+        Mississippi State University<br>
+        295 E. Lee Blvd, 219 Harned Hall<br>
+        Mississippi State, MS 39762
+        <div class="foot-links">
+          <a href="mailto:ms4438@msstate.edu">Email</a>
+          <a href="https://scholar.google.com/citations?hl=en&user=STDh3vkAAAAJ">Google Scholar</a>
+          <a href="https://github.com/meganlsmith">GitHub</a>
+          <a href="https://twitter.com/snaild_it">Twitter / X</a>
+        </div>
+        <div class="copyright">© 2026 The Smith Lab</div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <header class="page-hero">
+      <div class="wrap">
+        <span class="eyebrow mono">From the lab</span>
+        <h1>News</h1>
+        <p class="lede">New papers, awards, talks, and new lab members.</p>
+      </div>
+    </header>
+
+    <section>
+      <div class="wrap">
+        <ul class="news-list" id="news-list">
+          <li><p class="mono" style="opacity:0.5;">Loading news…</p></li>
+        </ul>
+<!-- Notes on adding news:
+        <p style="margin-top:32px; font-size:14px; color:rgba(29,33,28,0.6);">
+          Open <code>news.json</code> and add a new entry — <code>date</code> (ISO, for sorting),
+          <code>display_date</code> (label shown, e.g. "AUG 2026"), <code>title</code>, and <code>body</code>.
+          Optional: <code>image</code> (path to a small photo/thumbnail) and <code>link</code>
+          (URL to an external story, press release, etc.).
+        </p>
+-->
+      </div>
+    </section>
+  </main>
+</div>
+
+<script>
+  fetch('news.json')
+    .then(res => res.json())
+    .then(items => {
+      items.sort((a, b) => new Date(b.date) - new Date(a.date));
+      const list = document.getElementById('news-list');
+      list.innerHTML = items.map(n => {
+        const thumb = n.image ? `<img class="news-thumb" src="${n.image}" alt="">` : '';
+        const link = n.link ? `<a class="news-link mono" href="${n.link}" target="_blank" rel="noopener">Read the story →</a>` : '';
+        return `
+          <li>
+            <span class="news-date mono">${n.display_date}</span>
+            <div class="news-text">
+              ${thumb}
+              <div class="news-text-body">
+                <strong>${n.title}</strong>
+                <p>${n.body}</p>
+                ${link}
+              </div>
+            </div>
+          </li>`;
+      }).join('');
+    })
+    .catch(() => {
+      document.getElementById('news-list').innerHTML = '<li><p class="mono" style="opacity:0.5;">Could not load news.json — check the file exists and this page is being served over http(s), not opened directly as a file.</p></li>';
+    });
+</script>
+<script src="nav.js"></script>
+
+</body>
+</html>

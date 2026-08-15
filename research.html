@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research — The Smith Lab</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="layout">
+  <div class="sidebar">
+    <div class="sidebar-top">
+      <a class="brand" href="index.html">The <span>Smith Lab</span><br>Mississippi State</a>
+      <button class="sidebar-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+    <div class="sidebar-collapsible">
+      <ul>
+        <li><a href="index.html" class="navlink">Home</a></li>
+        <li><a href="research.html" class="navlink active">Research</a></li>
+        <li><a href="people.html" class="navlink">People</a></li>
+        <li><a href="publications.html" class="navlink">Publications</a></li>
+        <li><a href="software.html" class="navlink">Software</a></li>
+        <li><a href="news.html" class="navlink">News</a></li>
+        <li><a href="contact.html" class="navlink">Contact</a></li>
+      </ul>
+      <div class="foot-mini">
+        Dept. of Biological Sciences<br>
+        Mississippi State University<br>
+        295 E. Lee Blvd, 219 Harned Hall<br>
+        Mississippi State, MS 39762
+        <div class="foot-links">
+          <a href="mailto:ms4438@msstate.edu">Email</a>
+          <a href="https://scholar.google.com/citations?hl=en&user=STDh3vkAAAAJ">Google Scholar</a>
+          <a href="https://github.com/meganlsmith">GitHub</a>
+          <a href="https://twitter.com/snaild_it">Twitter / X</a>
+        </div>
+        <div class="copyright">© 2026 The Smith Lab</div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <header class="page-hero">
+      <div class="wrap">
+        <span class="eyebrow mono">The science</span>
+        <h1>Research</h1>
+        <p class="lede">We develop and apply computational and machine-learning methods for analyzing genomic data in an evolutionary context, with a focus on diversification in terrestrial snails and slugs.</p>
+      </div>
+    </header>
+
+    <section>
+      <div class="wrap">
+
+<!-- Section 1: Invasive Terrestrial Gastropods -->
+        <div class="research-entry">
+          <div><span class="num-circle mono">I</span></div>
+          <div>
+            <h3>Invasive Terrestrial Gastropods</h3>
+			<p>Invasive terrestrial gastropods pose threats to agriculture, human health, and biodiversity, and there are ~70 introduced terrestrial gastropods in the contiguous US. Despite their prevalence, invasive gastropods remain critically understudied, with even basic information including which species are present and the number and sources of introductions remaining unknown. We are both gathering basic, critical info on these invasions and using them as models for studying the evolutionary and ecological causes and consequences of invasions. We are using genomic, phenotypic, and ecological data to study the invasion histories of <i>Arion</i> slugs, <i>Deroceras</i> slugs, and a snail that poses major threats to peanut crops (<i>Bulimulus bonariensis</i>). In <i>Arion</i> and <i>Deroceras</i> our preliminary results support multiple, independent invasions. In some species, species distribution models suggest that habitat filtering is an important determinant of invasive range, while in others, new habitats appear to have been colonized following their introduction to North America.</p>
+            <div class="research-figure-grid">
+			  <div class="research-figure"><img src="photos/research/arion.jpg" alt="Arion slug"></div>
+			  <div class="research-figure"><img src="photos/research/arion2.jpg" alt="Arion slug"></div>
+            </div>
+          </div>
+        </div>
+
+<!-- Section 2: Machine Learning in Population Genetics -->
+        <div class="research-entry">
+          <div><span class="num-circle mono">II</span></div>
+          <div>
+            <h3>Machine Learning in Population Genetics</h3>
+			<p>Machine learning approaches are increasingly being applied to answer interesting questions in population genetics and phylogenetics. The lab has developed a python package popai, which infers the evolutionary histories of populations from genomic data using several machine learning approaches. We are also interested in when model violations mislead popular approaches for inferring population histories, detecting selection, and more. For example, my recent work found that selection can mislead inferences of introgression (Smith & Hahn, 2024). We test popular methods using simulated data, use machine learning to identify problematic model violations, and use machine learning approaches (e.g., domain adaptation) to perform more accurate inference in the presence of complex and difficult-to-model biological processes (e.g., background selection or ghost introgression) (e.g., Cobb & Smith, 2025).</p>
+            <div class="research-figure">
+			  <div class="research-figure"><img src="photos/research/delimitpy-workflow.webp" alt="Workflow for the popai software."></div>
+            </div>
+          </div>
+        </div>
+
+<!-- Section 3: Gene Duplication & Genome Evolution -->
+        <div class="research-entry">
+          <div><span class="num-circle mono">III</span></div>
+          <div>
+            <h3>New methods for studying gene duplicates</h3>
+			<p>My lab is interested both in using gene duplicates to improve phylogenetic inference and in understanding the evolutionary dynamics, causes, and consequences of gene duplication and loss. Previously, I investigated the potential benefits and risks of using paralogs (genes related through duplication events) for phylogenetic inference (Yan et al. 2021; Smith and Hahn 2021; Smith and Hahn 2022; Smith et al. 2022). This work highlighted the robustness of phylogenetic inference to the heterogeneity introduced by the inclusion of paralogs and suggests steps towards including more data in phylogenetic analyses. We are also developing a new method, dusti, that infers trees from large gene families directly from alignments—most existing methods use gene trees! More recently, we uncovered a case in which gene duplicates actually improve inference by ameliorating the impacts of long-branch attraction (Smith & Hahn, 2026). We are also developing new machine learning approaches to infer rates of gene duplication and loss, identify lineages and gene families with elevated rates, and investigate relationships between rates of gene duplication and loss, speciation, and phenotypic change.</p>
+            <div class="research-figure">
+			  	<img src="photos/research/gdl.webp" alt="Machine learning methods can accurately infer duplication and loss rates."> 
+				<figcaption>We trained two neural networks to estimate overall rates of gene family evolution or separate duplication and loss rates: a fully connected neural network taking summary statistics and gene family counts as input (FCNN) and an ensemble model with a  long-short term network (LSTM) taking lineage-through-time plots as input and an FCNN taking gene family counts as input. (a) Our neural networks outperform CAFE when sample sizes are small and match CAFE in accuracy when sample sizes are larger. (b) Our neural networks can accurately estimate independent duplication and loss rates, a function not available in the newest version of CAFE.</figcaption>
+            </div>
+          </div>
+        </div>
+
+<!-- Section 4: Speciation in Native Slugs -->
+        <div class="research-entry">
+          <div><span class="num-circle mono">IV</span></div>
+          <div>
+            <h3>Speciation in Native Slugs</h3>
+            <p>My lab studies species limits and speciation in native terrestrial gastropods from North America. Taildropper slugs (genus <i>Prophysaon</i>) are endemic to the temperate rainforests of the Pacific Northwest. There are nine described species, and the group appears to have a complex history with the potential for geology, climate, and ecology to have driven diversification.  Our research has supported a likely history of divergence in isolated refugia during glaciation, followed by expansion and gene flow between lineages upon secondary contact in several species (Smith & Carstens, 2020; Smith et al., 2024). Furthermore, we have found evidence of undescribed diversity in this group (Smith et al., 2026).</p>
+            <p>We are also studying species limits in manteslugs (Genus <i>Philomycus</i>) from the southeastern US. Preliminary results suggest that taxonomic revisions will be needed in this group, as morphology-based identifications often conflict with results from genetic data.</p>
+            <div class="research-figure-grid">
+              <div class="research-figure">
+			  	<img src="photos/research/prophysaon.webp" alt="Prophysaon slug pictures and distribution."> 
+				<figcaption>Sister species <i>Prophysaon andersoni</i> and <i>P. foliolatum</i> have partially overlapping ranges and differ in ecologically important traits, like microhabitat, foot size, and dentition. A) Map of the Pacific Northwest showing glacial extent during the Last Glacial Maximum (blue), the range of <i>P. andersoni</i> (orange), and the range of <i>P. foliolatum</i> (purple). B) <i>P. andersoni</i> and C) <i>P. foliolatum</i> feeding on mushrooms. D) Comparisons of dentition between <i>P. andersoni</i> and <i>P. foliolatum</i> (Pilsbry & Vanatta 1898).</figcaption>
+              	</div>
+              <div class="research-figure">
+			  	<img src="photos/research/radula.webp" alt="Machine learning methods can accurately infer duplication and loss rates."> 
+				<figcaption>The radula of a specimen of <i>Prophysaon foliolatum</i>. The radula was dissected out and then imaged on a Scanning Electron Microscope at Indiana University.</figcaption>
+              	</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+</div>
+
+<script src="nav.js"></script>
+
+</body>
+</html>
