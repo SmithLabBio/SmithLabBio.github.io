@@ -254,10 +254,10 @@ section{padding:52px 0;}
 .people-grid .links a:hover{color:var(--rust);}
 .people-grid .bio{font-size:14.5px; color:rgba(29,33,28,0.72); margin-top:12px; text-align:left;}
 
-.alumni-list{list-style:none; margin:0; padding:0;}
-.alumni-list li{display:flex; justify-content:space-between; gap:16px; padding:14px 0; border-bottom:1px solid var(--line); font-size:15px; flex-wrap:wrap;}
+.alumni-list li{display:flex; flex-direction:column; gap:4px; padding:14px 0; border-bottom:1px solid var(--line); font-size:15px;}
 .alumni-list li:last-child{border-bottom:none;}
-.alumni-list .alumni-role{color:rgba(29,33,28,0.6); font-family:'JetBrains Mono', monospace; font-size:12.5px;}
+.alumni-top{display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap;}
+.alumni-now{font-size:13.5px; color:rgba(29,33,28,0.6); font-style:italic;}
 
 .recruiting{margin-top:32px; padding:20px 24px; background:var(--paper-warm); border-radius:16px; border-left:3px solid var(--rust); font-size:15px;}
 .recruiting strong{font-family:'Petrona', serif; font-weight:600;}
